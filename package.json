@@ -1,7 +1,7 @@
 {
   "name": "pwa-github-users-data",
   "version": "0.1.0",
-  "description": "progressive web app that shows github users data through github api Edit",
+  "description": "Progressive web app that shows github users data through github api",
   "main": "index.js",
   "scripts": {
     "start": "http-server ."
