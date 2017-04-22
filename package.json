@@ -4,7 +4,7 @@
   "description": "progressive web app that shows github users data through github api Edit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ophirbushi/pwa-github-users-data/issues"
   },
-  "homepage": "https://github.com/ophirbushi/pwa-github-users-data#readme"
+  "homepage": "https://github.com/ophirbushi/pwa-github-users-data#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
 }
