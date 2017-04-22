@@ -1,0 +1,19 @@
+{
+  "name": "pwa-github-users-data",
+  "version": "0.0.1",
+  "description": "progressive web app that shows github users data through github api Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ophirbushi/pwa-github-users-data.git"
+  },
+  "author": "Ophir Bushinsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ophirbushi/pwa-github-users-data/issues"
+  },
+  "homepage": "https://github.com/ophirbushi/pwa-github-users-data#readme"
+}
