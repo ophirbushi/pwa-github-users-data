@@ -1,10 +1,11 @@
-var CACHE_NAME = 'version_3';
+var CACHE_NAME = 'version_4';
 var urlsToCache = [
     '/',
     '/styles.css',
     '/app.js',
     'lib/material.blue-amber.min.css',
-    'lib/material.min.js'
+    'lib/material.min.js',
+    'lib/material.min.js.map'
 ];
 
 
