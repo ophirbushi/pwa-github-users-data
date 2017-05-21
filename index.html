@@ -5,7 +5,7 @@
     <title>Github Users Data</title>
     <meta name="description" content="Progressive web app that shows github users data through github api" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="fonts/material-icons.css">
     <link rel="stylesheet" href="lib/material.blue-amber.min.css" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="lib/material.min.js"></script>
@@ -38,7 +38,14 @@
                 <div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
             </div>
             <div id="app" style="display: none;">
-                THIS IS CONTENT!
+                <div class="user-template mdl-card mdl-shadow--4dp" style="margin: 20px auto;">
+                    <div class="mdl-card__title">
+                        <h2 class="user-name mdl-card__title-text"></h2>
+                    </div>
+                    <div class="mdl-card__media">
+                        <img class="user-avatar" width="100" border="0" alt="" style="padding:10px;">
+                    </div>
+                </div>
             </div>
         </main>
     </div>
